@@ -16,8 +16,6 @@ Resources:
         CodePipelineEvent:
           Properties:
             Pattern:
-              detail-type:
-              - CodePipeline Pipeline Execution State Change
               source:
               - aws.codepipeline
           Type: CloudWatchEvent
