@@ -27,3 +27,5 @@ Resources:
             Pattern:
               source:
               - aws.codepipeline
+              detail-type:
+              - CodePipeline Action Execution State Change
